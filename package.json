@@ -1,0 +1,29 @@
+{
+  "name": "gerenciador_financeiro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest",
+    "lint": "eslint src/** test/** --fix",
+    "secure-mode": "jest --watch --verbose=true"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "eslint": "^8.12.0",
+    "jest": "^27.5.1",
+    "supertest": "6.2.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "consign": "^0.1.6",
+    "express": "^4.17.3",
+    "knex": "^1.0.4",
+    "knex-logger": "^0.1.0",
+    "mysql2": "^2.3.3"
+  }
+}
